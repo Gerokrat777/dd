@@ -1,0 +1,10 @@
+
+venv/
+.pylintrc
+__pycache__/
+
+.vscode
+.idea
+
+../templates-for-Django-4-course-Home/bd_and_migrations/db.sqlite3
+media/
