@@ -34,5 +34,12 @@ def about(request):
 
     return render(request, 'main/about.html', context)
 
+def contact(request):
+    context = {
+        'title': "Контактная информация",
+        'content': "Контакты",
+        'text_on_page': 'erkgtjnergeogherle',
+    }
 
+    return render(request, 'main/contact.html', context)
 # Create your views here.

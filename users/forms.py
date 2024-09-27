@@ -10,7 +10,7 @@ class UserLoginForm(AuthenticationForm):
     username = forms.CharField(
         widget=forms.TextInput(attrs={'autofocus':True,
                                       'class': 'form-control',
-                                      'laceholder': 'Введите ваше имя пользователя'})
+                                      'placeholder': 'Введите ваше имя пользователя'})
     )
     password = forms.CharField(
         widget=forms.PasswordInput(attrs={'autocomplete':'current-password',
